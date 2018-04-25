@@ -1,0 +1,38 @@
+.CameraBottom{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.toolbtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0px 0px 1px 1px black;
+}
+.toolbtn:hover{
+    box-shadow: 0px 0px 3px 3px green;
+}
+.toolbtn .deviceList {
+    display: none;
+    position: absolute;
+ //   box-shadow: 0px 0px 2px 2px green;
+    background-color: white;
+    border-radius: 3%;
+    right: 5px;
+    padding:5px ;
+}
+.toolbtn:hover > .deviceList {
+    display:inherit;
+}
+.deviceItem{
+    cursor: 'move';
+    margin: 2px;
+    padding:2px;
+ //   box-shadow: 1px 0px 2px 2px red;
+}
+.deviceItem:hover{
+    box-shadow: 0px 0px 0px 1px green;
+   
+}
